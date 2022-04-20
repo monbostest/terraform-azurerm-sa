@@ -1,13 +1,13 @@
 variable "name" {
-
+ default = "hshshshsh"
 }
 
 variable "resource_group_name" {
-  
+  default = "backend"
 }
 
 variable "location" {
-  
+  default = "EAST US 2"
 }
 
 variable "account_tier" {
