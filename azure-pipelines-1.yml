@@ -19,15 +19,16 @@ steps:
 - script: curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
 
+
 - task: TerraformCLI@0
   inputs:
     command: 'init'
     backendType: 'azurerm'
-    backendServiceArm: 'Azure Pass - Sponsorship(4)(bc70b9eb-d323-46e3-af33-e98198377873)'
+    backendServiceArm: 'Azure Pass - Sponsorship(1)(bc70b9eb-d323-46e3-af33-e98198377873)'
     ensureBackend: true
-    backendAzureRmResourceGroupName: 'xsdss'
+    backendAzureRmResourceGroupName: 'newsAS'
     backendAzureRmResourceGroupLocation: 'East US'
-    backendAzureRmStorageAccountName: 'asdasdasdasd'
-    backendAzureRmContainerName: 'sdasd'
-    backendAzureRmKey: 'sadddd'
+    backendAzureRmStorageAccountName: 'newsAsds'
+    backendAzureRmContainerName: 'asxsed'
+    backendAzureRmKey: 'sews'
     allowTelemetryCollection: true
