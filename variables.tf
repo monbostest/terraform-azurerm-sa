@@ -3,11 +3,11 @@ variable "name" {
 }
 
 variable "resource_group_name" {
-  default = "backend"
+  default = "xsdss"
 }
 
 variable "location" {
-  default = "EAST US 2"
+  default = "East US"
 }
 
 variable "account_tier" {
