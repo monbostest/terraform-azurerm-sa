@@ -32,3 +32,9 @@ steps:
     backendAzureRmContainerName: 'asxsed'
     backendAzureRmKey: 'sews'
     allowTelemetryCollection: true
+
+- task: TerraformCLI@0
+  inputs:
+    command: 'apply'
+    environmentServiceName: 'Azure Pass - Sponsorship(1)(bc70b9eb-d323-46e3-af33-e98198377873)'
+    allowTelemetryCollection: true
