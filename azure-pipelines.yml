@@ -11,4 +11,5 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-
+- script: echo "This is an another test"
+  displayName: 'This is second step'
